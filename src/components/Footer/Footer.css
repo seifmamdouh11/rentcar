@@ -1,0 +1,9 @@
+.listStyling a{
+    color: var(--bs-light);
+    text-decoration: none;
+    transition: all .3s;
+    font-size: 14px;
+}
+.listStyling a:hover{
+    padding-left: 10px;
+}

@@ -1,0 +1,24 @@
+.Testimonials{
+    background-color: #e0ecfa;
+}
+.test{
+    min-height:400px;
+    width: 100%;
+    background-color: var(--bs-light);
+    border-radius: 50px;
+    overflow: hidden;
+
+}
+.test img{
+    padding: 0;
+    
+}
+.profile{
+    width: 100%;
+    height: 100%;
+}
+.profile-img{
+    height: 100%!important;
+    border-radius: 50px;
+    object-fit: cover;
+}

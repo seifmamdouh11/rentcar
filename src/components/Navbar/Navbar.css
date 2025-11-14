@@ -1,0 +1,25 @@
+.navbar{
+    box-shadow: 0 -2px 5px 2px #33333382;
+}
+.nav-item {
+    position: relative;
+    width: fit-content;
+}
+.nav-item::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0;
+    height: 2px;
+    background-color: var(--bs-secondary);
+    transition: all 0.3s linear;
+}
+.nav-item:hover::after{
+    width: 100%;
+}
+button{
+    transition: all .3s linear!important;
+}

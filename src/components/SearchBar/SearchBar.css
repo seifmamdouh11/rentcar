@@ -1,0 +1,21 @@
+input:focus {
+    border: none !important;
+    box-shadow: 0px 15px 40px 1px #33333320 !important;
+    outline: none !important;
+}
+input:focus-visible {
+    outline: none !important;
+}
+input {
+    box-shadow: 0px 15px 30px 1px #33333320 !important;
+    padding: 15px!important;
+    border: none !important;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.search-icon {
+    font-size: 30px;
+    top:8px;
+    right: 45px;
+    color: #33333352;
+}
